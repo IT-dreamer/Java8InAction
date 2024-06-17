@@ -7,8 +7,7 @@ import lambdasinaction.common.BufferedReaderProcessor;
 
 public class ExecuteAround {
 
-  static final String TEST_FILE = "/Users/yufei.a.chen/IdeaProjects/Java8InAction"
-      + "/src/main/resources/lambdasinaction/chap3/data.txt";
+  static final String TEST_FILE = "src/main/resources/lambdasinaction/chap3/data.txt";
 
   public static void main(String[] args) throws IOException {
     String oneLine = processFile(BufferedReader::readLine);
